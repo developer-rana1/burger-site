@@ -1,0 +1,342 @@
+img {
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 1;
+}
+
+.navbar-brand img {
+    width: 100px !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-family: tahoma;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.nav-item a:hover {
+    color: rgb(197, 60, 10) !important;
+}
+
+.social-icons i {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.social-icons i:hover {
+    background: orange;
+}
+.slider-section {
+    margin-top: -50px;
+}
+
+.carousel-bg-img {
+    background: url(../images/shaafi-ali-I0IXBZDEAHo-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 250px 2% 200px 2%;
+}
+
+.top-heading {
+    text-transform: uppercase;
+    background: orangered;
+    padding: 5px 10px;
+    color: #ddd;
+    font-weight: 700;
+    font-family: poppins;
+    border-radius: 3px 10px;
+}
+
+.big-heading {
+    font-size: 88px;
+    font-family: 'Titan One', cursive;
+    color: #fff;
+    initial-letter: 2px;
+}
+
+.paragraph {
+    color: #ddd;
+    font-size: 18px;
+}
+
+.order-btn, .btn {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.order-btn a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    background: orangered;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.order-btn a:hover {
+    background: #fff;
+    color: orangered;
+}
+
+.heading {
+    font-family: 'Titan One', cursive;
+    margin: 30px 0;
+    font-size: 48px;
+}
+
+.btn a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    background: orangered;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.btn a:hover {
+    background: #000 !important;
+    color: #fff;
+}
+
+.deals-one {
+    background: url(../images/blog-img-1.jpg);
+    background-size: cover;
+    
+}
+
+.deals-two {
+    background: url(../images/blog-img-2.jpg);
+    background-size: cover;
+}
+
+.deals-three {
+    background: url(../images/blog-img-3.jpg);
+    background-size: cover;
+}
+
+.deals {
+    padding: 60px 40px;
+}
+
+.deals-top {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+}
+
+.deals h3 {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.deals-price {
+    background: orangered;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.deals-price span {
+    margin-top: 10px;
+    display: block;
+    color: #fff;
+}
+
+#amount {
+    font-size: 24px;
+    color: #fff;
+    line-height: 10px;
+    font-weight: 700;
+}
+
+.menu-img {
+    width: 100%;
+}
+
+.menu-img img {
+    width: 80%;
+}
+.menu-items h4 {
+    width: 60%;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Titan One', cursive;
+    margin-top: 16px;
+    display: inline;
+}
+
+.menu-items span {
+    font-size: 20px;
+    color: orangered;
+    font-weight: 700;
+    font-family: 'Titan One', cursive;
+    padding-left: 30px;
+}
+
+.review i {
+    color: orangered;
+}
+
+.review-left {
+    background: url(../images/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 50px;
+}
+
+.review-text {
+    text-align: center;
+}
+.review-text h4 {
+    font-size: 18px;
+    font-family: poppins;
+    color: #fff;
+}
+.review-text span {
+    padding-top: 50px;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    opacity: 0 !important;
+}
+
+.review-img {
+    height: 330px;
+    text-align: center;
+}
+
+.review-img img {
+    height: 100%;
+}
+
+.newsletter {
+    background: orangered;
+    padding: 150px 0;
+    margin: 100px 0;
+}
+
+.newsletter h3 {
+    text-transform: uppercase;
+    font-family: 'Titan One', cursive;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.newsletter p {
+    color: #ddd;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    background: #000;
+    color: #fff;
+}
+
+#submit:hover {
+    background: #fff;
+    color: orangered;
+}
+
+.location {
+    padding: 70px 2%;
+}
+
+.custom-map {
+    width: 100%;
+    height: 450px;
+}
+
+.footer {
+    background: #000;
+    padding: 100px 0;
+}
+
+.footer img {
+    width: 100px;
+    padding-bottom: 30px;
+}
+
+.footer p {
+    color: #ddd;
+}
+
+.footer h3 {
+    font-family: 'Titan One', cursive;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer ul li {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer ul li i {
+    color: orangered;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-bottom p a {
+    text-decoration: none;
+    color: orangered;
+}
+ 
+
+@media only screen and (max-width: 991.99px) {
+    .nav-icon {
+        color: #ffffff !important;
+    }
+
+    .big-heading {
+        font-size: 54px;
+    }
+
+    .carousel-bg-img {
+        padding: 150px 2% 100px 2%;
+    }
+    
+}
